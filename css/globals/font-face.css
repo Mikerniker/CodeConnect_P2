@@ -2,7 +2,7 @@
   font-family: 'DM Sans';
   src: url('../../fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
   font-weight: 200 500 700; 
-  font-display: swap; /* Optional: Improve loading performance */
+  font-display: swap; 
 }
     
  
