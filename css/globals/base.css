@@ -1,13 +1,11 @@
 body {
 
-    font-family: "DM Sans", sans-serif;
     color: #FFFFFF;
-
 }
 
 
 h1 {
-    
+    font-family: "DM Sans", sans-serif;
     font-size: 72px;
     font-weight: 700;
     line-height: 86px;
