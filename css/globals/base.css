@@ -1,5 +1,7 @@
 body {
     color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
 }
 
 a {
@@ -30,6 +32,14 @@ h3 {
     line-height: 52px;
     letter-spacing: -0.4000000059604645px;
     text-align: left;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    letter-spacing: -0.3px;
+    text-align: center;
 }
 
 h5 {

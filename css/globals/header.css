@@ -2,12 +2,6 @@ body {
     background-color: blueviolet;
 }
 
-.nav_container {
-    width: 1400px;
-    max-width: 100%;
-}
-
-
 
 .navbar {
     width: 100%;
@@ -25,7 +19,6 @@ body {
     }
 
 .navbar__item-list {
-    list-style-type: none; 
     width: 40%;
     max-width: 100%;
     justify-content: space-between;

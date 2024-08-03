@@ -1,0 +1,28 @@
+body {
+    background-color: blueviolet;
+}
+
+.footer-content  {
+    padding: 1.5rem 2rem;
+}
+
+.footer-top,
+.footer-bottom {
+    justify-content: space-between;
+    
+}
+
+.footer__group-links {
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    padding-left: 0; 
+    gap: 1.5rem;
+}
+
+.footer_navlink {
+    color: #FFFFFF;
+}
+
+.divider {
+    padding: 1.5rem 0rem;
+}

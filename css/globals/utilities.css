@@ -1,4 +1,27 @@
 
+.container {
+    width: 1400px;
+    max-width: 100%;
+}
+
 .row {
     display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-bullets {
+    list-style-type: none; 
+}
+
+.is-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.no-margin {
+    margin: 0;
 }
