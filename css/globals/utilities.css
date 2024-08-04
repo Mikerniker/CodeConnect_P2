@@ -28,3 +28,7 @@
 .is-equally-spaced {
     justify-content: space-between;
 }
+
+text-centered {
+    text-align: center;
+}
