@@ -1,6 +1,13 @@
 .container {
     width: 1400px;
     max-width: 100%;
+    height: auto;
+
+}
+
+.main-content {
+    padding: 10rem 3rem;
+    
 }
 
 .row {
@@ -25,10 +32,11 @@
     margin: 0;
 }
 
+.margin-bottom {
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
 .is-equally-spaced {
     justify-content: space-between;
 }
 
-text-centered {
-    text-align: center;
-}

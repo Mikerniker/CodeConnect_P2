@@ -42,7 +42,8 @@ h3 {
     text-align: left;
 }
 
-h4 {
+h4,
+.subheader {
     font-size: 24px;
     font-weight: 700;
     line-height: 31.25px;
@@ -83,4 +84,8 @@ button {
 
 .nav__link {
     text-align: left;
+}
+
+.text-centered {
+    text-align: center;
 }
