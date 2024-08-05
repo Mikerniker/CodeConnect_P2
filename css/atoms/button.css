@@ -9,6 +9,6 @@ button,
     color: #FFFFFF;
     padding: 16px 24px;
     text-decoration: none;
-   
+    display: inline-block;
 }
 

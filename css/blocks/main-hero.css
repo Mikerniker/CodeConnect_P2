@@ -1,9 +1,6 @@
 header {
-    width: 100%;
-    max-width: 100%; 
-    height: auto;
     background: #2F1893;
-    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.3)), url("../../images/header.jpg");
+    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +17,7 @@ header {
 }
 
 .hero__header-lead {
-    width: 80%;
+    width: 60%;
 }
 
 .hero__header-button {
@@ -29,10 +26,6 @@ header {
 
 
 @media (max-width: 768px) {
-    .hero__main-content {
-        width: 100%; 
-    }
-
     .hero__header-lead {
         width: 100%;
     }
