@@ -1,4 +1,4 @@
-header,
+.hero__header,
 .subheader__image {
     background: #2F1893;
     background-position: center;
@@ -9,7 +9,7 @@ header,
     padding: 12rem 2rem;
 }
 
-header {
+.hero__header {
     background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jfif");
    }
 
