@@ -1,12 +1,12 @@
 header {
     background: #2F1893;
-    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jpg");
+    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     object-fit: cover;
-    padding: 6rem;
+    padding: 12rem 6rem;
 }
 
 .hero__main-content {
