@@ -1,25 +1,44 @@
-header {
+header,
+.subheader__image {
     background: #2F1893;
-    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     object-fit: cover;
-    padding: 12rem 6rem;
+    padding: 12rem 2rem;
+}
+
+header {
+    background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/header.jfif");
+   }
+
+.subheader__image {
+     background-image: linear-gradient(rgba(47, 24, 147, 0.3), rgba(47, 24, 147, 0.5)), url("../../images/subheader-image.jfif");
+}
+
+.hero__main-content,
+.subheader__main-content {
+    margin: auto;
+    color: white;
+    max-width: 100%;
 }
 
 .hero__main-content {
     width: 100%;
-    max-width: 100%; 
-    margin: auto;
-    color: white;
+}
+
+.subheader__main-content {
+    width: 70%;
 }
 
 .hero__header-lead {
-    width: 60%;
+    width: 55%;
 }
 
+.subheader-lead {
+    width: 80%;
+}
 .hero__header-button {
     margin-top: 6rem;
 } 

@@ -32,7 +32,6 @@ h2 {
     font-weight: 700;
     line-height: 70px;
     letter-spacing: -1px;
-    text-align: center;
 }
 
 h3 {   
@@ -49,6 +48,13 @@ h4,
     line-height: 31.25px;
     letter-spacing: -0.3px;
     text-align: center;
+}
+
+.subheader__small {
+    font-size: 0.875rem; /* 14px;  */
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 h5,
@@ -75,17 +81,18 @@ p {
 
 .nav__link,
 button,
-.link-button {
+.link-button,
+.subheader-lead {
     font-family: "DM Sans", sans-serif;
     font-size: 1.125rem; /* 18px; */
     font-weight: 500;
     line-height: 26px;
 }
 
-/*
-button {
-    text-align: center;
-} */
+.subheader-lead {
+    line-height: 28px;
+}
+
 
 .nav__link {
     text-align: left;
