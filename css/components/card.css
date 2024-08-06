@@ -1,18 +1,22 @@
 .card {    
     max-width: 470px;
     width: 100%; 
-    padding: 1rem;
     margin: 0 auto;
     position: relative;
     
 }
 
-
+.card__image-wrapper {
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+}
 
 .card__image {
-    width: 470px;
-    height: auto;
     border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
 }
 
 .card__link {

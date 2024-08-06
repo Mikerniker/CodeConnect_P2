@@ -2,5 +2,11 @@
 .showcase__main-content {
     margin: auto;
     max-width: 100%;
-    width: 100%;
+    width: 75%;
+}
+
+.showcase__card-wrapper {
+    flex-wrap: wrap;
+   
+   
 }
