@@ -19,17 +19,21 @@ a {
   }
 
 
+
+  h1, h2, h4,
+  .subheader  {
+     font-weight: 700;
+ 
+}
+
 h1 {
     font-size: 72px;
-    font-weight: 700;
     line-height: 86px;
     letter-spacing: -1px;
-    text-align: center;
 }
 
 h2 {
     font-size: 58px;
-    font-weight: 700;
     line-height: 70px;
     letter-spacing: -1px;
 }
@@ -44,10 +48,8 @@ h3 {
 h4,
 .subheader {
     font-size: 24px;
-    font-weight: 700;
     line-height: 31.25px;
     letter-spacing: -0.3px;
-    text-align: center;
 }
 
 .subheader__small {
@@ -61,17 +63,11 @@ h5,
 .lead {
     font-size: 22px;
     line-height: 32px;
-    text-align: center;
-
 }
 
 .lead {
     font-weight: 500;
 } 
-/*
-h5 > .lead {
-    font-weight: 500;
-} */
 
 p {
     font-size: 16px;
@@ -93,8 +89,7 @@ button,
     line-height: 28px;
 }
 
-
-.nav__link {
+.text-left {
     text-align: left;
 }
 
