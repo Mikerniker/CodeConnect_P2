@@ -28,8 +28,9 @@
 
 /* Team Cards */
 .card__team {
-    max-width: 154px;
-    margin: 0 auto;
+   /* max-width: 154px; 
+   max-width: 100%; */
+   flex: 0 1 30%;
 }
 
 .card__user-image-wrapper {
@@ -43,4 +44,12 @@
 
 .card__socials {
     padding-left: 0;
+    gap: 1rem;
+}
+
+
+@media (max-width: 768px) {
+.card__team {
+    flex: 0 1 100%;
+ }
 }

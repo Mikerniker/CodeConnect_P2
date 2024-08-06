@@ -20,12 +20,14 @@
 
 /* Team Section */
 .team__main-content {
-    width: 60%;
-    margin: 0rem 5rem  0rem 8rem;
+    width: 55%;
+    margin: 0rem 5rem;
+   
 }
 
 .team__card-wrapper {
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 
@@ -38,5 +40,9 @@
         width: 100%;
     }
 
-   
+    .team__main-content {
+        width: 100%;
+        margin: 0rem 1rem;
+       
+}
 }
