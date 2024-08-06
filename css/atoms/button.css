@@ -10,27 +10,27 @@
     text-align: center;
     justify-content: center;
 }
+
 .button:hover {
     background:  #ae96bf;
 }
 
-.link-outline-button,
-.outline-button-mobile  {
+.outline-button {
     background: none;
     border: 2px solid #ae96bf;
 }
 
-.outline-button-mobile {
+.hide-item {
     display: none;
 }
 
 
 @media (max-width: 768px) {
-    .link-outline-button {
+    .outline-button {
         display: none;
     }
 
-    .outline-button-mobile {
+    .hide-item {
         display: flex;
     }
    
