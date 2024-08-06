@@ -19,6 +19,10 @@
     height: auto;
 }
 
+.card__text {
+    padding-bottom: 2rem;
+}
+
 .card__link {
     position: absolute;
     top: 0;
