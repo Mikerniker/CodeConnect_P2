@@ -24,7 +24,6 @@
     display: none;
 }
 
-
 @media (max-width: 768px) {
     .outline-button {
         display: none;
@@ -33,5 +32,4 @@
     .hide-item {
         display: flex;
     }
-   
 }
