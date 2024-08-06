@@ -7,7 +7,13 @@
     align-items: center;
 }
 
-.footer__group-links {
+.footer__socials {
+    gap: 1rem;
+}
+
+.footer__group-links-social,
+.footer__group-links,
+.footer__group-links-text {
     flex-wrap: wrap;   
     padding-left: 0; 
     gap: 1.5rem;
@@ -19,4 +25,22 @@
 
 .divider {
     padding: 1.5rem 0rem;
+}
+
+
+@media (max-width: 768px) {
+    .footer__top,
+    .footer__socials,
+    .footer__group-links,
+    .footer__bottom {
+        flex-direction: column;
+    }
+    .footer__group-links-text {
+        margin-bottom: 0;
+    }
+
+    .footer__bottom,
+    .footer__group-links-text {
+       text-align: center;
+    }
 }
