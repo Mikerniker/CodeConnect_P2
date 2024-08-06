@@ -15,12 +15,12 @@
 }
 
 .link-outline-button,
-.link-outline-button-mobile  {
+.outline-button-mobile  {
     background: none;
     border: 2px solid #ae96bf;
 }
 
-.link-outline-button-mobile {
+.outline-button-mobile {
     display: none;
 }
 
@@ -30,7 +30,7 @@
         display: none;
     }
 
-    .link-outline-button-mobile {
+    .outline-button-mobile {
         display: flex;
     }
    
