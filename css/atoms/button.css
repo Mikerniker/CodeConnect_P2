@@ -1,5 +1,3 @@
-
-
 .button {
     border: none;
     border-radius: 100px;
@@ -9,12 +7,26 @@
     padding: 16px 24px;
     text-decoration: none;
     display: inline-block;
+    text-align: center;
+    justify-content: center;
 }
 .button:hover {
     background:  #ae96bf;
 }
 
-.link-outline-button  {
+.link-outline-button,
+.link-outline-button-mobile  {
     background: none;
     border: 2px solid #ae96bf;
+}
+
+@media (max-width: 768px) {
+    .link-outline-button {
+        display: none;
+    }
+
+    .link-outline-button-mobile {
+        display: flex;
+    }
+   
 }

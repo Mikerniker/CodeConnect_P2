@@ -2,8 +2,7 @@
     max-width: 470px;
     width: 100%; 
     margin: 0 auto;
-    position: relative;
-    
+    position: relative; 
 }
 
 .card__image-wrapper {

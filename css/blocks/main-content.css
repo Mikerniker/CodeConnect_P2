@@ -1,3 +1,6 @@
+.showcase {
+    padding: 5rem 0rem;
+}
 
 .showcase__main-content {
     margin: auto;
@@ -6,12 +9,28 @@
 }
 
 .showcase__card-wrapper {
-    flex-wrap: wrap;
-   
-   
+    flex-wrap: wrap;  
 }
 
 .showcase__heading {
     align-items: center;
     padding: 0rem 1rem;
+    flex-wrap: wrap;
+}
+
+.link-outline-button-mobile {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .showcase__heading {
+        justify-content: center;
+    }
+
+    .showcase__card-button {
+        width: 100%;
+    }
+
+   
 }
