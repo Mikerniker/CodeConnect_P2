@@ -1,7 +1,6 @@
 
 
-button,
-.link-button {
+.button {
     border: none;
     border-radius: 100px;
     cursor: pointer;
@@ -12,3 +11,8 @@ button,
     display: inline-block;
 }
 
+
+.link-outline-button  {
+    background: none;
+    border: 2px solid #ae96bf;
+}
