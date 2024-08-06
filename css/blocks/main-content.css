@@ -18,10 +18,6 @@
     flex-wrap: wrap;
 }
 
-.link-outline-button-mobile {
-    display: none;
-}
-
 
 @media (max-width: 768px) {
     .showcase__heading {

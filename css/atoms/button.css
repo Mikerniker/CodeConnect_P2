@@ -20,6 +20,11 @@
     border: 2px solid #ae96bf;
 }
 
+.link-outline-button-mobile {
+    display: none;
+}
+
+
 @media (max-width: 768px) {
     .link-outline-button {
         display: none;
