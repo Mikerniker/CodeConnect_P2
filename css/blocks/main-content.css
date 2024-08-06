@@ -2,10 +2,9 @@
     padding: 5rem 0rem;
 }
 
+
 .showcase__main-content {
-    margin: auto;
-    max-width: 100%;
-    width: 75%;
+    margin: auto;  
 }
 
 .showcase__card-wrapper {
@@ -15,6 +14,17 @@
 .showcase__heading {
     align-items: center;
     padding: 0rem 1rem;
+    flex-wrap: wrap;
+}
+
+
+/* Team Section */
+.team__main-content {
+    width: 60%;
+    margin: 0rem 5rem  0rem 8rem;
+}
+
+.team__card-wrapper {
     flex-wrap: wrap;
 }
 
