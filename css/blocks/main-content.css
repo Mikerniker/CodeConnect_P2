@@ -19,6 +19,9 @@
 
 
 /* Team Section */
+.team {
+    padding: 2rem 0rem;
+}
 .team__main-content {
     width: 55%;
     margin: 0rem 5rem;
