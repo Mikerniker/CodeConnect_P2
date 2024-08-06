@@ -41,8 +41,12 @@
     }
 
     .team__main-content {
-        width: 100%;
-        margin: 0rem 1rem;
+        width: 90%;
+        margin: 0rem auto;
        
 }
+    .team__heading {
+        align-items: center;
+    }
+
 }

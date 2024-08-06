@@ -52,4 +52,10 @@
 .card__team {
     flex: 0 1 100%;
  }
+
+ .card__content,
+ .card__text {
+    align-items: center;
+    
+ }
 }
