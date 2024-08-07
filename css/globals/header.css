@@ -20,7 +20,8 @@
     flex-wrap: wrap;   
     padding-left: 0; 
 }
-    
+ 
+.home__link,
 .nav__link {
     color: #FFFFFF;
 }
@@ -50,7 +51,16 @@
         display: flex;
     }
 
+    .navbar__item-list {
+        width: 100%;
+    }
+
     .nav__link {
         display: none;
+    }
+
+    /* Temporary option for mobile*/
+    .visited {
+        opacity: 100%;
     }
 }
