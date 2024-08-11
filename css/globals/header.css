@@ -3,7 +3,8 @@
     max-width: 100%;
     margin: 85px auto; 
     position: fixed;
-    z-index: 1;
+    top: 0;
+    transition: top 0.3s;
 }
 
 .nav {  
@@ -46,6 +47,11 @@
 
 
 @media (max-width: 768px) {
+    .navbar {
+        margin: 0px auto;
+    }
+
+
     .hamburger__menu {
         display: flex;
     }
