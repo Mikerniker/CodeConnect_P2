@@ -2,13 +2,13 @@
     width: 1400px;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .main-content {
     max-width: 100%;
     width: 75%;
 }
-
 
 .row {
     display: flex;
